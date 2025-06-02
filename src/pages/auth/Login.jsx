@@ -28,6 +28,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const url = `${import.meta.env.VITE_URL}${import.meta.env.VITE_LOGIN}`;
+    console.log(url,"url");
     try {
       setLoading(true);
       // Validate form data against the schema

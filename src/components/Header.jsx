@@ -244,7 +244,7 @@ function Header() {
     // /multiplayer/randomMultiplayer/1500
     const protocol = window.location.protocol;
     const host = window.location.host;
-    const uniqueIdurl = `${protocol}//${host}/multiplayer/randomMultiplayer/1500`;
+    const uniqueIdurl = `${protocol}//${host}/multiplayer/randomMultiplayer/600`;
     // window.open(uniqueIdurl, '_blank');
     window.location.href = uniqueIdurl;
 
